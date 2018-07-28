@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href=".//assets/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src=".//assets/game.js"></script>
+    
+</head>
+<body>
+    
+    
+    
+    
+    <div class="jumbotron">
+        <h1 class="display-4">This is some crystal game</h1>
+        <p class="lead">....i dont know... its pretty dumb</p>
+        <hr class="my-4">
+        <p>click the cyrstals and stuff. who cares.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div id="title" class="col-md-12">
+                Some directions and stuff goes here.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8" id="random-number"></div>
+            <div class="col-md-4" id="win-loss"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3" id="crystal1">
+                <div>
+                    <button id="crystal1Btn" class="crystalBtn" value = ""> <img src="http:/via.placeholder.com/150x150"></button>
+                </div>
+                Diamond
+            </div>
+            <div class="col-md-3" id="crystal2">
+                <div>
+                        <button id="crystal2Btn" class="crystalBtn"> <img src="http:/via.placeholder.com/150x150"></button>
+                </div>
+                Emerald
+            </div> 
+            <div class="col-md-3" id="crystal3">
+                <div>
+                        <button id="crystal3Btn" class="crystalBtn"> <img src="http:/via.placeholder.com/150x150"></button>
+                </div>
+                Sapphire
+            </div>
+            <div class="col-md-3" id="crystal4">
+                <div>
+                        <button id="crystal4Btn" class="crystalBtn"> <img src="http:/via.placeholder.com/150x150"></button>
+                </div>
+                Ruby
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">Your total score is:</div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="score-box"></div>
+        </div>
+    </div>
+
+</body>
+</html>
